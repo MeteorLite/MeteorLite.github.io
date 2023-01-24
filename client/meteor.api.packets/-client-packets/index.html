@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>ClientPackets</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>client</span>
+            </a>
+    </div>
+    <div>
+1.5.10    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="client::meteor.api.packets/ClientPackets///PointingToDeclaration//62532462">
+  <div class="breadcrumbs"><a href="../../../index.html">client</a><span class="delimiter">/</span><a href="../index.html">meteor.api.packets</a><span class="delimiter">/</span><span class="current">ClientPackets</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Client</span><wbr></wbr><span><span>Packets</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="index.html">ClientPackets</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="990678928%2FFunctions%2F62532462" anchor-label="createClickPacket" id="990678928%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-click-packet.html"><span>create</span><wbr></wbr><span>Click</span><wbr></wbr><span><span>Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="990678928%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-click-packet.html"><span class="token function">createClickPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mouseInfo<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">x<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">y<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-564355194%2FFunctions%2F62532462" anchor-label="createClientPacket" id="-564355194%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-client-packet.html"><span>create</span><wbr></wbr><span>Client</span><wbr></wbr><span><span>Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-564355194%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-client-packet.html"><span class="token function">createClientPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">menu<span class="token operator">: </span><span data-unresolved-link="dev.hoot.api.events/AutomatedMenu///PointingToDeclaration/">AutomatedMenu</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span><span class="token operator">?</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1443956938%2FFunctions%2F62532462" anchor-label="createContinuePacket" id="-1443956938%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-continue-packet.html"><span>create</span><wbr></wbr><span>Continue</span><wbr></wbr><span><span>Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1443956938%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-continue-packet.html"><span class="token function">createContinuePacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="453800525%2FFunctions%2F62532462" anchor-label="createGroundItemAction1Packet" id="453800525%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-ground-item-action1-packet.html"><span>create</span><wbr></wbr><span>Ground</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action1Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="453800525%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-ground-item-action1-packet.html"><span class="token function">createGroundItemAction1Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">groundItemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="573920398%2FFunctions%2F62532462" anchor-label="createGroundItemAction2Packet" id="573920398%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-ground-item-action2-packet.html"><span>create</span><wbr></wbr><span>Ground</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action2Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="573920398%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-ground-item-action2-packet.html"><span class="token function">createGroundItemAction2Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">groundItemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="694040271%2FFunctions%2F62532462" anchor-label="createGroundItemAction3Packet" id="694040271%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-ground-item-action3-packet.html"><span>create</span><wbr></wbr><span>Ground</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action3Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="694040271%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-ground-item-action3-packet.html"><span class="token function">createGroundItemAction3Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">groundItemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="814160144%2FFunctions%2F62532462" anchor-label="createGroundItemAction4Packet" id="814160144%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-ground-item-action4-packet.html"><span>create</span><wbr></wbr><span>Ground</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action4Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="814160144%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-ground-item-action4-packet.html"><span class="token function">createGroundItemAction4Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">groundItemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="934280017%2FFunctions%2F62532462" anchor-label="createGroundItemAction5Packet" id="934280017%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-ground-item-action5-packet.html"><span>create</span><wbr></wbr><span>Ground</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action5Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="934280017%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-ground-item-action5-packet.html"><span class="token function">createGroundItemAction5Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">groundItemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1791439056%2FFunctions%2F62532462" anchor-label="createItemAction1Packet" id="-1791439056%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-action1-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action1Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1791439056%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-action1-packet.html"><span class="token function">createItemAction1Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="328848143%2FFunctions%2F62532462" anchor-label="createItemAction2Packet" id="328848143%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-action2-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action2Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="328848143%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-action2-packet.html"><span class="token function">createItemAction2Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1845831954%2FFunctions%2F62532462" anchor-label="createItemAction3Packet" id="-1845831954%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-action3-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action3Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1845831954%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-action3-packet.html"><span class="token function">createItemAction3Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="274455245%2FFunctions%2F62532462" anchor-label="createItemAction4Packet" id="274455245%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-action4-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action4Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="274455245%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-action4-packet.html"><span class="token function">createItemAction4Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1900224852%2FFunctions%2F62532462" anchor-label="createItemAction5Packet" id="-1900224852%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-action5-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Action5Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1900224852%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-action5-packet.html"><span class="token function">createItemAction5Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1611347534%2FFunctions%2F62532462" anchor-label="createItemWidgetOnGameObjectPacket" id="1611347534%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-widget-on-game-object-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span>Widget</span><wbr></wbr><span>On</span><wbr></wbr><span>Game</span><wbr></wbr><span>Object</span><wbr></wbr><span><span>Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1611347534%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-widget-on-game-object-packet.html"><span class="token function">createItemWidgetOnGameObjectPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">objectID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemSlot<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemWidgetID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1261925317%2FFunctions%2F62532462" anchor-label="createItemWidgetOnGroundItemPacket" id="1261925317%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-widget-on-ground-item-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span>Widget</span><wbr></wbr><span>On</span><wbr></wbr><span>Ground</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1261925317%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-widget-on-ground-item-packet.html"><span class="token function">createItemWidgetOnGroundItemPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">groundItemID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemSlot<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemWidgetID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1803131940%2FFunctions%2F62532462" anchor-label="createItemWidgetOnItemWidgetPacket" id="-1803131940%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-widget-on-item-widget-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span>Widget</span><wbr></wbr><span>On</span><wbr></wbr><span>Item</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1803131940%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-widget-on-item-widget-packet.html"><span class="token function">createItemWidgetOnItemWidgetPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">sourceWidgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">sourceSlot<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">sourceItemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">destinationWidgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">destinationSlot<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">destinationItemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1086643508%2FFunctions%2F62532462" anchor-label="createItemWidgetOnNPCPacket" id="1086643508%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-widget-on-n-p-c-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span>Widget</span><wbr></wbr><span>On</span><wbr></wbr><span><span>NPCPacket</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1086643508%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-widget-on-n-p-c-packet.html"><span class="token function">createItemWidgetOnNPCPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">npcIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemWidgetID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemSlot<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="138551582%2FFunctions%2F62532462" anchor-label="createItemWidgetOnPlayerPacket" id="138551582%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-item-widget-on-player-packet.html"><span>create</span><wbr></wbr><span>Item</span><wbr></wbr><span>Widget</span><wbr></wbr><span>On</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="138551582%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-item-widget-on-player-packet.html"><span class="token function">createItemWidgetOnPlayerPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemSlot<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemWidgetID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1750341766%2FFunctions%2F62532462" anchor-label="createMovementPacket" id="1750341766%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-movement-packet.html"><span>create</span><wbr></wbr><span>Movement</span><wbr></wbr><span><span>Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1750341766%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-movement-packet.html"><span class="token function">createMovementPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1782492016%2FFunctions%2F62532462" anchor-label="createNPCAction1Packet" id="-1782492016%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-n-p-c-action1-packet.html"><span>create</span><wbr></wbr><span><span>NPCAction1Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1782492016%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-n-p-c-action1-packet.html"><span class="token function">createNPCAction1Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">npcIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1152033391%2FFunctions%2F62532462" anchor-label="createNPCAction2Packet" id="-1152033391%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-n-p-c-action2-packet.html"><span>create</span><wbr></wbr><span><span>NPCAction2Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1152033391%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-n-p-c-action2-packet.html"><span class="token function">createNPCAction2Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">npcIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-521574766%2FFunctions%2F62532462" anchor-label="createNPCAction3Packet" id="-521574766%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-n-p-c-action3-packet.html"><span>create</span><wbr></wbr><span><span>NPCAction3Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-521574766%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-n-p-c-action3-packet.html"><span class="token function">createNPCAction3Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">npcIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="108883859%2FFunctions%2F62532462" anchor-label="createNPCAction4Packet" id="108883859%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-n-p-c-action4-packet.html"><span>create</span><wbr></wbr><span><span>NPCAction4Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="108883859%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-n-p-c-action4-packet.html"><span class="token function">createNPCAction4Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">npcIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="739342484%2FFunctions%2F62532462" anchor-label="createNPCAction5Packet" id="739342484%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-n-p-c-action5-packet.html"><span>create</span><wbr></wbr><span><span>NPCAction5Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="739342484%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-n-p-c-action5-packet.html"><span class="token function">createNPCAction5Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">npcIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1575112984%2FFunctions%2F62532462" anchor-label="createObjectAction1Packet" id="-1575112984%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-object-action1-packet.html"><span>create</span><wbr></wbr><span>Object</span><wbr></wbr><span><span>Action1Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1575112984%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-object-action1-packet.html"><span class="token function">createObjectAction1Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">objectID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1454993111%2FFunctions%2F62532462" anchor-label="createObjectAction2Packet" id="-1454993111%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-object-action2-packet.html"><span>create</span><wbr></wbr><span>Object</span><wbr></wbr><span><span>Action2Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1454993111%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-object-action2-packet.html"><span class="token function">createObjectAction2Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">objectID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1334873238%2FFunctions%2F62532462" anchor-label="createObjectAction3Packet" id="-1334873238%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-object-action3-packet.html"><span>create</span><wbr></wbr><span>Object</span><wbr></wbr><span><span>Action3Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1334873238%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-object-action3-packet.html"><span class="token function">createObjectAction3Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">objectID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1214753365%2FFunctions%2F62532462" anchor-label="createObjectAction4Packet" id="-1214753365%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-object-action4-packet.html"><span>create</span><wbr></wbr><span>Object</span><wbr></wbr><span><span>Action4Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1214753365%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-object-action4-packet.html"><span class="token function">createObjectAction4Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">objectID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1094633492%2FFunctions%2F62532462" anchor-label="createObjectAction5Packet" id="-1094633492%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-object-action5-packet.html"><span>create</span><wbr></wbr><span>Object</span><wbr></wbr><span><span>Action5Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1094633492%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-object-action5-packet.html"><span class="token function">createObjectAction5Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">objectID<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldX<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">worldY<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1245690394%2FFunctions%2F62532462" anchor-label="createPlayerAction1Packet" id="-1245690394%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-player-action1-packet.html"><span>create</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Action1Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1245690394%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-player-action1-packet.html"><span class="token function">createPlayerAction1Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-615231769%2FFunctions%2F62532462" anchor-label="createPlayerAction2Packet" id="-615231769%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-player-action2-packet.html"><span>create</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Action2Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-615231769%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-player-action2-packet.html"><span class="token function">createPlayerAction2Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="15226856%2FFunctions%2F62532462" anchor-label="createPlayerAction3Packet" id="15226856%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-player-action3-packet.html"><span>create</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Action3Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="15226856%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-player-action3-packet.html"><span class="token function">createPlayerAction3Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="645685481%2FFunctions%2F62532462" anchor-label="createPlayerAction4Packet" id="645685481%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-player-action4-packet.html"><span>create</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Action4Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="645685481%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-player-action4-packet.html"><span class="token function">createPlayerAction4Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1276144106%2FFunctions%2F62532462" anchor-label="createPlayerAction5Packet" id="1276144106%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-player-action5-packet.html"><span>create</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Action5Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1276144106%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-player-action5-packet.html"><span class="token function">createPlayerAction5Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1906602731%2FFunctions%2F62532462" anchor-label="createPlayerAction6Packet" id="1906602731%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-player-action6-packet.html"><span>create</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Action6Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1906602731%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-player-action6-packet.html"><span class="token function">createPlayerAction6Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1757905940%2FFunctions%2F62532462" anchor-label="createPlayerAction7Packet" id="-1757905940%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-player-action7-packet.html"><span>create</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Action7Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1757905940%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-player-action7-packet.html"><span class="token function">createPlayerAction7Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1127447315%2FFunctions%2F62532462" anchor-label="createPlayerAction8Packet" id="-1127447315%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-player-action8-packet.html"><span>create</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Action8Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1127447315%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-player-action8-packet.html"><span class="token function">createPlayerAction8Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerIdx<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">shiftPressed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-709742251%2FFunctions%2F62532462" anchor-label="createWidgetAction10Packet" id="-709742251%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action10-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action10Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-709742251%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action10-packet.html"><span class="token function">createWidgetAction10Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-92012447%2FFunctions%2F62532462" anchor-label="createWidgetAction1Packet" id="-92012447%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action1-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action1Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-92012447%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action1-packet.html"><span class="token function">createWidgetAction1Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2028274752%2FFunctions%2F62532462" anchor-label="createWidgetAction2Packet" id="2028274752%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action2-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action2Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2028274752%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action2-packet.html"><span class="token function">createWidgetAction2Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-146405345%2FFunctions%2F62532462" anchor-label="createWidgetAction3Packet" id="-146405345%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action3-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action3Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-146405345%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action3-packet.html"><span class="token function">createWidgetAction3Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1973881854%2FFunctions%2F62532462" anchor-label="createWidgetAction4Packet" id="1973881854%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action4-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action4Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1973881854%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action4-packet.html"><span class="token function">createWidgetAction4Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-200798243%2FFunctions%2F62532462" anchor-label="createWidgetAction5Packet" id="-200798243%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action5-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action5Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-200798243%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action5-packet.html"><span class="token function">createWidgetAction5Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1919488956%2FFunctions%2F62532462" anchor-label="createWidgetAction6Packet" id="1919488956%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action6-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action6Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1919488956%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action6-packet.html"><span class="token function">createWidgetAction6Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-255191141%2FFunctions%2F62532462" anchor-label="createWidgetAction7Packet" id="-255191141%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action7-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action7Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-255191141%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action7-packet.html"><span class="token function">createWidgetAction7Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1865096058%2FFunctions%2F62532462" anchor-label="createWidgetAction8Packet" id="1865096058%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action8-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action8Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1865096058%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action8-packet.html"><span class="token function">createWidgetAction8Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-309584039%2FFunctions%2F62532462" anchor-label="createWidgetAction9Packet" id="-309584039%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="create-widget-action9-packet.html"><span>create</span><wbr></wbr><span>Widget</span><wbr></wbr><span><span>Action9Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-309584039%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-widget-action9-packet.html"><span class="token function">createWidgetAction9Packet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widgetId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">itemId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">childId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="423455400%2FFunctions%2F62532462" anchor-label="preparePacketBuffer" id="423455400%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="prepare-packet-buffer.html"><span>prepare</span><wbr></wbr><span>Packet</span><wbr></wbr><span><span>Buffer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="423455400%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="prepare-packet-buffer.html"><span class="token function">preparePacketBuffer</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">opcode<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.packets/PacketBufferNode///PointingToDeclaration/">PacketBufferNode</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2110501170%2FFunctions%2F62532462" anchor-label="queueClickPacket" id="-2110501170%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="queue-click-packet.html"><span>queue</span><wbr></wbr><span>Click</span><wbr></wbr><span><span>Packet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2110501170%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="queue-click-packet.html"><span class="token function">queueClickPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">clickPoint<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/awt/Point.html">Point</a></span></span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="queue-click-packet.html"><span class="token function">queueClickPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">x<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">y<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="queue-click-packet.html"><span class="token function">queueClickPacket</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mouseInfo<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">x<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">y<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
