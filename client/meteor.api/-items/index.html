@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Items</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>client</span>
+            </a>
+    </div>
+    <div>
+1.5.10    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="client::meteor.api/Items///PointingToDeclaration//62532462">
+  <div class="breadcrumbs"><a href="../../../index.html">client</a><span class="delimiter">/</span><a href="../index.html">meteor.api</a><span class="delimiter">/</span><span class="current">Items</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Items</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="index.html">Items</a></div><p class="paragraph">An object for working with items in various item containers</p><span class="kdoc-tag"><h4 class="">Author</h4><p class="paragraph">Null</p></span></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="307926618%2FFunctions%2F62532462" anchor-label="bankContains" id="307926618%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="bank-contains.html"><span>bank</span><wbr></wbr><span><span>Contains</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="307926618%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="bank-contains.html"><span class="token function">bankContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if bank contains the <a href="bank-contains.html">id</a> provided</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1700183260%2FFunctions%2F62532462" anchor-label="deposit" id="1700183260%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="deposit.html"><span><span>deposit</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1700183260%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html"><span class="token annotation builtin">JvmStatic</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="deposit.html"><span class="token function">deposit</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">item<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token punctuation">, </span></span><span class="parameter ">amount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">deposits an <a href="deposit.html">amount</a> of the specified <a href="deposit.html">item</a></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-370058099%2FFunctions%2F62532462" anchor-label="equipmentContains" id="-370058099%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="equipment-contains.html"><span>equipment</span><wbr></wbr><span><span>Contains</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-370058099%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="equipment-contains.html"><span class="token function">equipmentContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>names<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if equipped items contains at least one of the <a href="equipment-contains.html">names</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="equipment-contains.html"><span class="token function">equipmentContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if equipped items contains the <a href="equipment-contains.html">id</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="equipment-contains.html"><span class="token function">equipmentContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if equipped items contains at least one of the <a href="equipment-contains.html">ids</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="equipment-contains.html"><span class="token function">equipmentContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if equipped items contains the <a href="equipment-contains.html">name</a> provided</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1287284053%2FFunctions%2F62532462" anchor-label="getAll" id="1287284053%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-all.html"><span>get</span><wbr></wbr><span><span>All</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1287284053%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-all.html"><span class="token function">getAll</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html">ArrayList</a><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">returns all items from a specified <a href="get-all.html">container</a></p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-all.html"><span class="token function">getAll</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>names<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator">?</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html">ArrayList</a><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">checks the specified item <a href="get-all.html">container</a> and returns all matching items with the <a href="get-all.html">names</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-all.html"><span class="token function">getAll</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator">?</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html">ArrayList</a><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">checks the specified item <a href="get-all.html">container</a> and returns all matching items with the <a href="get-all.html">ids</a> provided</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="870596535%2FFunctions%2F62532462" anchor-label="getAtSlot" id="870596535%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-at-slot.html"><span>get</span><wbr></wbr><span>At</span><wbr></wbr><span><span>Slot</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="870596535%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-at-slot.html"><span class="token function">getAtSlot</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">slot<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">returns an item at a specific <a href="get-at-slot.html">slot</a> in the specified <a href="get-at-slot.html">container</a></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2035664280%2FFunctions%2F62532462" anchor-label="getBankItemWidget" id="2035664280%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-bank-item-widget.html"><span>get</span><wbr></wbr><span>Bank</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Widget</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2035664280%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-bank-item-widget.html"><span class="token function">getBankItemWidget</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api.widgets/Widget///PointingToDeclaration/">Widget</span><span class="token operator">?</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1445560835%2FFunctions%2F62532462" anchor-label="getCount" id="1445560835%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-count.html"><span>get</span><wbr></wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1445560835%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-count.html"><span class="token function">getCount</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>names<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator">?</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">checks the specified item <a href="get-count.html">container</a> and returns the amount of items matching any of the <a href="get-count.html">names</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-count.html"><span class="token function">getCount</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator">?</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">checks the specified item <a href="get-count.html">container</a> and returns the amount of items matching any of the <a href="get-count.html">ids</a> provided</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1083245475%2FFunctions%2F62532462" anchor-label="getFirst" id="1083245475%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-first.html"><span>get</span><wbr></wbr><span><span>First</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1083245475%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-first.html"><span class="token function">getFirst</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>names<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator">?</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">checks the specified item <a href="get-first.html">container</a> and returns the first matching item with the <a href="get-first.html">names</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-first.html"><span class="token function">getFirst</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator">?</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">checks the specified item <a href="get-first.html">container</a> and returns the first matching item with the <a href="get-first.html">ids</a> provided</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1940336528%2FFunctions%2F62532462" anchor-label="getFirstEmptyInventorySlot" id="-1940336528%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-first-empty-inventory-slot.html"><span>get</span><wbr></wbr><span>First</span><wbr></wbr><span>Empty</span><wbr></wbr><span>Inventory</span><wbr></wbr><span><span>Slot</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1940336528%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-first-empty-inventory-slot.html"><span class="token function">getFirstEmptyInventorySlot</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">returns the first empty inventory slot or -1 if inventory is full</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="772784323%2FFunctions%2F62532462" anchor-label="getFirstWithAction" id="772784323%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-first-with-action.html"><span>get</span><wbr></wbr><span>First</span><wbr></wbr><span>With</span><wbr></wbr><span><span>Action</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="772784323%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-first-with-action.html"><span class="token function">getFirstWithAction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">action<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">checks the specified item container and returns the first matching item that contains one of the actions provided</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="720343766%2FFunctions%2F62532462" anchor-label="getFreeSlots" id="720343766%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-free-slots.html"><span>get</span><wbr></wbr><span>Free</span><wbr></wbr><span><span>Slots</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="720343766%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-free-slots.html"><span class="token function">getFreeSlots</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">returns the number of free slots in the specified item <a href="get-free-slots.html">container</a></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-35432427%2FFunctions%2F62532462" anchor-label="getItems" id="-35432427%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-items.html"><span>get</span><wbr></wbr><span><span>Items</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-35432427%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-items.html"><span class="token function">getItems</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">items<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int-array/index.html">IntArray</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">This is a holdover for a plugin awaiting rework</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1040739556%2FFunctions%2F62532462" anchor-label="getSlot" id="1040739556%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-slot.html"><span>get</span><wbr></wbr><span><span>Slot</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1040739556%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-slot.html"><span class="token function">getSlot</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">returns the slot of an item with the specified <a href="get-slot.html">id</a> in the specified <a href="get-slot.html">container</a></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1035000201%2FFunctions%2F62532462" anchor-label="inventoryContains" id="1035000201%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="inventory-contains.html"><span>inventory</span><wbr></wbr><span><span>Contains</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1035000201%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="inventory-contains.html"><span class="token function">inventoryContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>names<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if inventory contains at least one of the <a href="inventory-contains.html">names</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="inventory-contains.html"><span class="token function">inventoryContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if inventory contains the <a href="inventory-contains.html">id</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="inventory-contains.html"><span class="token function">inventoryContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if inventory contains at least one of the <a href="inventory-contains.html">ids</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="inventory-contains.html"><span class="token function">inventoryContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if inventory contains the <a href="inventory-contains.html">name</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="inventory-contains.html"><span class="token function">inventoryContains</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html">MutableList</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if inventory contains at least one of the <a href="inventory-contains.html">ids</a> provided as a mutable list</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1928808614%2FFunctions%2F62532462" anchor-label="isCarrying" id="1928808614%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="is-carrying.html"><span>is</span><wbr></wbr><span><span>Carrying</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1928808614%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="is-carrying.html"><span class="token function">isCarrying</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if inventory or quipped items contains the <a href="is-carrying.html">id</a> provided</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="is-carrying.html"><span class="token function">isCarrying</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks if inventory or quipped items contains the <a href="is-carrying.html">name</a> provided</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-977107024%2FFunctions%2F62532462" anchor-label="isFull" id="-977107024%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="is-full.html"><span>is</span><wbr></wbr><span><span>Full</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-977107024%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="is-full.html"><span class="token function">isFull</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">container<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/InventoryID///PointingToDeclaration/">InventoryID</span><span class="token operator"> = </span>InventoryID.INVENTORY</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">checks to see if the specified <a href="is-full.html">container</a> is full</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="436991070%2FFunctions%2F62532462" anchor-label="offer" id="436991070%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="offer.html"><span><span>offer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="436991070%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html"><span class="token annotation builtin">JvmStatic</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="offer.html"><span class="token function">offer</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">item<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token punctuation">, </span></span><span class="parameter ">quantity<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">offer the specified <a href="offer.html">quantity</a> of the specified <a href="offer.html">item</a> on the Grand Exchange</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="501633116%2FFunctions%2F62532462" anchor-label="withdraw" id="501633116%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="withdraw.html"><span><span>withdraw</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="501633116%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html"><span class="token annotation builtin">JvmStatic</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="withdraw.html"><span class="token function">withdraw</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">item<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token punctuation">, </span></span><span class="parameter ">amount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">withdrawMode<span class="token operator">: </span><span data-unresolved-link="dev.hoot.api.items/Bank.WithdrawMode///PointingToDeclaration/">Bank.WithdrawMode</span><span class="token operator">?</span><span class="token operator"> = </span>Bank.WithdrawMode.DEFAULT</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">withdraws an <a href="withdraw.html">amount</a> of the specified <a href="withdraw.html">item</a> using the specified <a href="withdraw.html">withdrawMode</a></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1845719919%2FFunctions%2F62532462" anchor-label="withdrawLastQuantity" id="-1845719919%2FFunctions%2F62532462" data-filterable-set=":client:dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":client:dokkaHtml/main" data-filterable-set=":client:dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="withdraw-last-quantity.html"><span>withdraw</span><wbr></wbr><span>Last</span><wbr></wbr><span><span>Quantity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1845719919%2FFunctions%2F62532462"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":client:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html"><span class="token annotation builtin">JvmStatic</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="withdraw-last-quantity.html"><span class="token function">withdrawLastQuantity</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">item<span class="token operator">: </span><span data-unresolved-link="net.runelite.api/Item///PointingToDeclaration/">Item</span><span class="token punctuation">, </span></span><span class="parameter ">withdrawMode<span class="token operator">: </span><span data-unresolved-link="dev.hoot.api.items/Bank.WithdrawMode///PointingToDeclaration/">Bank.WithdrawMode</span><span class="token operator"> = </span>Bank.WithdrawMode.DEFAULT</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">withdraws the last amount used of the specified <a href="withdraw-last-quantity.html">item</a> using the specified <a href="withdraw-last-quantity.html">withdrawMode</a></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
