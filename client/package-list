@@ -105,7 +105,6 @@ $dokka.location:meteor.api/Objects/getAll/#kotlin.Array[kotlin.String]/PointingT
 $dokka.location:meteor.api/Objects/getAll/#kotlin.IntArray/PointingToDeclaration/client/meteor.api/-objects/get-all.html
 $dokka.location:meteor.api/Objects/getFirst/#kotlin.Int/PointingToDeclaration/client/meteor.api/-objects/get-first.html
 $dokka.location:meteor.api/Objects/getFirst/#kotlin.String/PointingToDeclaration/client/meteor.api/-objects/get-first.html
-$dokka.location:meteor.api/Objects/getTileObjects/#net.runelite.api.Tile?/PointingToDeclaration/client/meteor.api/-objects/get-tile-objects.html
 $dokka.location:meteor.api/Players///PointingToDeclaration/client/meteor.api/-players/index.html
 $dokka.location:meteor.api/Players/getAll/#/PointingToDeclaration/client/meteor.api/-players/get-all.html
 $dokka.location:meteor.api/Players/getAll/#kotlin.Array[kotlin.String]/PointingToDeclaration/client/meteor.api/-players/get-all.html
